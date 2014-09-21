@@ -1,0 +1,49 @@
+@media screen and (max-width:620px)
+{
+	body 
+	{
+		margin-right: 0;
+	}
+	
+	nav 
+	{
+	float:right;
+	margin-top: 1px;
+	display: inline-block;
+	width: 100%;
+	}
+	.container
+	{
+		width: 100%;
+	}
+	.searchButton
+	{
+	color:#404040;
+	font-weight:bolder;
+	width: 125px;
+	height: 35px;
+	font-family: sans-serif;
+	background-color:#e8e8e8;
+	border-radius: 4px;
+	}
+	footer{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+	#footercontainer
+	{
+		width: 100%;
+	}
+	.footertextleft 
+	{
+		display: block;
+		text-align: center;
+	}
+	.footertextright 
+	{
+		display: block;
+		text-align: center;
+		float: none;
+	}
+}
